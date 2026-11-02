@@ -1,0 +1,15 @@
+[project]
+name = "ai-journey-bootcamp"
+version = "0.1.0"
+description = "Java 开发者转 AI Agent 开发 · 每日带练"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.5.4",
+    "openai>=1.60",
+    "python-dotenv>=1.0",
+]
+
+# 国内镜像源：pypi.org 直连会被重置，走清华源
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true

@@ -1,0 +1,6 @@
+{
+  "model": "qwen-plus",
+  "accuracy": "30/30",
+  "elapsed_sec": 24.18,
+  "wrong": []
+}
